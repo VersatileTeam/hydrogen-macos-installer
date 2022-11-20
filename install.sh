@@ -1,1 +1,1 @@
-curl -o Hydrogen_MacOS.zip https://cdn.discordapp.com/attachments/1004796859157581864/1043623305371992104/Hydrogen_MacOS.zip && unzip -o Hydrogen_MacOS.zip && mv "Hydrogen MacOS.app" /Applications/Hydrogen.app && rm Hydrogen_MacOS.zip
+curl -o Hydrogen_MacOS.zip https://cdn.discordapp.com/attachments/1004796859157581864/1043623305371992104/Hydrogen_MacOS.zip && unzip -qq -o Hydrogen_MacOS.zip && rm /Applications/Hydrogen.app && mv "Hydrogen MacOS.app" /Applications/Hydrogen.app && rm Hydrogen_MacOS.zip
