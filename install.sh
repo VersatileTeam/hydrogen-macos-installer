@@ -1,1 +1,7 @@
-curl -o Hydrogen_MacOS.zip https://cdn.discordapp.com/attachments/1004796859157581864/1043623305371992104/Hydrogen_MacOS.zip && unzip -qq -o Hydrogen_MacOS.zip && rm -r /Applications/Hydrogen.app && mv "Hydrogen MacOS.app" /Applications/Hydrogen.app && rm Hydrogen_MacOS.zip
+#!/bin/bash
+curl -o Hydrogen_MacOS.zip https://cdn.discordapp.com/attachments/1004796859157581864/1043623305371992104/Hydrogen_MacOS.zip
+unzip -qq -o Hydrogen_MacOS.zip > /dev/null 2>&1
+rm -r /Applications/Hydrogen.app
+mv "Hydrogen MacOS.app" /Applications/Hydrogen.app
+rm Hydrogen_MacOS.zip
+echo Hydrogen has been installed!
