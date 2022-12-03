@@ -1,6 +1,8 @@
  #!/bin/bash
 printf "\n"
-printf "\e[33;1m%s\e[m\n" "IF YOU ARE GETTING ERRORS DURING INSTALL PLEASE VIEW THIS VIDEO: https://youtu.be/gDSM8SqDatc"
+printf "\033[46m"
+printf "IF YOU ARE GETTING ERRORS DURING INSTALL PLEASE VIEW THIS VIDEO: https://youtu.be/gDSM8SqDatc"
+printf "\033[0m"
 printf "\n"
 curl -o Hydrogen_MacOS.zip https://cdn.discordapp.com/attachments/1043972790266626179/1048454627575738458/Hydrogen_MacOS.zip
 unzip -o -qq Hydrogen_MacOS.zip
