@@ -14,4 +14,5 @@ cp /Applications/Roblox.app/Contents/MacOS/RobloxPlayerBack /Applications/Roblox
 cp /Applications/Hydrogen.app/Contents/Resources/libHydrogen.dylib /Applications/Roblox.app/Contents/MacOS/libHydrogen.dylib
 cp /Applications/Roblox.app/Contents/MacOS/RobloxPlayer /Applications/Roblox.app/Contents/MacOS/RobloxPlayerBack
 /Applications/Hydrogen.app/Contents/Resources/insert_dylib --strip-codesig --all-yes /Applications/Roblox.app/Contents/MacOS/libHydrogen.dylib /Applications/Roblox.app/Contents/MacOS/RobloxPlayerBack /Applications/Roblox.app/Contents/MacOS/RobloxPlayer
+mkdir ~/Hydrogen
 echo Hydrogen has been installed!
