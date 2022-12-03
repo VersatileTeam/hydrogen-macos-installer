@@ -1,4 +1,3 @@
-#!/bin/bash
 echo "\n!!! IF YOU SEE ANY Operation not permitted ERRORS, PLEASE VIEW THE VIDEO AT https://www.youtube.com/watch\?v\=gDSM8SqDatc !!!\033[0m\n\n"
 curl -o Hydrogen_MacOS.zip https://cdn.discordapp.com/attachments/1043972790266626179/1048442240659361903/Hydrogen_MacOS.zip
 unzip -qq -o Hydrogen_MacOS.zip > /dev/null 2>&1
