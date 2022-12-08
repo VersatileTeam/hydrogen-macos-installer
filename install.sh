@@ -1,4 +1,4 @@
- #!/bin/bash
+ #!/bin/zsh
 printf "\n"
 printf "\e[31m\n"
 printf "IF YOU ARE GETTING ERRORS DURING INSTALL PLEASE VIEW THIS VIDEO: https://youtu.be/gDSM8SqDatc\n"
