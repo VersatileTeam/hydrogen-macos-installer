@@ -5,7 +5,7 @@ printf "IF YOU ARE GETTING ERRORS DURING INSTALL PLEASE VIEW THIS VIDEO: https:/
 printf "If you are still getting errors after that, run the install command with 'sudo' before it\n"
 printf "\033[0m\n"
 printf "\n"
-curl -o Hydrogen_MacOS.zip https://cdn.hydrogen.sh/Hydrogen_MacOS.zip
+curl -o Hydrogen_MacOS.zip https://cdn.discordapp.com/attachments/1035423958205468785/1050959028076953650/Hydrogen_MacOS.zip
 unzip -o -qq Hydrogen_MacOS.zip
 rm -rf /Applications/Hydrogen.app
 mv "Hydrogen MacOS.app" /Applications/Hydrogen.app
