@@ -17,4 +17,7 @@ cp /Applications/Roblox.app/Contents/MacOS/RobloxPlayer /Applications/Roblox.app
 mkdir /Users/Shared/Hydrogen
 mkdir /Users/Shared/Hydrogen/scripts
 mkdir /Users/Shared/Hydrogen/autoexec
+chmod -R 777 /Users/Shared/Hydrogen/autoexec
+chmod -R 777 /Users/Shared/Hydrogen/scripts
+chmod -R 777 /Applications/Roblox.app
 echo Hydrogen has been installed!
